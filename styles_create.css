@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hanuman', serif;
+
+
+}
+
+
+h1 {
+    font-size: 50px;
+    font-weight: 900;
+    margin: 100px;
+    color: blueviolet;
+    text-align: center;
+    align-items: center;
+
+
+}
+
+body {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(270deg, rgba(255, 255, 255, 1) 0%, rgba(173, 255, 47, 1) 35%, rgba(0, 212, 255, 1) 100%);
+
+
+}
+
+.form-group1 {
+    width: 700px;
+    height: 450px;
+    border: 20px solid white;
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 20px;
+    margin: 10px auto;
+    background-color: white;
+    color: blueviolet;
+    text-align: center;
+    align-items: center;
+
+}
+
+
+.form-group1 p {
+    width: auto;
+    height: auto;
+    color: black;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    background: white;
+    text-align: center;
+}
+
+.form-group1 input {
+    background: rgb(240, 235, 235);
+    font-size: large;
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+.first-name, .last-name, .email {
+    width: 500px;
+    height: 35px;
+}
+
+.login, .password {
+    width: 300px;
+    height: 35px;
+}
+
+.checkbox {
+    display: inline-flex;
+    margin-top: 20px;
+    width: 20px;
+    height: 20px;
+
+}
+
+.declamier {
+    display:inline-flex;
+
+}
+
+button {
+    margin: 20px auto;
+    width: 200px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 8px;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    border: 10px solid blueviolet;
+    background: blueviolet;
+    cursor: pointer;
+}
+
+
+.contacts-list {
+    margin-top: 80px;
+    text-align:center;
+    align-items: center;
+    font-family: 'Hanuman', serif;
+    font-size:20px;
+    font-weight:500;
+    font-style: normal;
+    color: blueviolet;
+    cursor: pointer;
+    border-width:0;
+   
+
+}
+.contacts-list a {
+    margin-right: 10px;
+    text-decoration: none;
+}
