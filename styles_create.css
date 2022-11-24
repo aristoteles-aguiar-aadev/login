@@ -11,7 +11,7 @@
 h1 {
     font-size: 50px;
     font-weight: 900;
-    margin: 100px;
+    margin: 10px;
     color: blueviolet;
     text-align: center;
     align-items: center;
@@ -101,7 +101,7 @@ button {
 
 
 .contacts-list {
-    margin-top: 80px;
+    margin-top: 30px;
     text-align:center;
     align-items: center;
     font-family: 'Hanuman', serif;

@@ -7,11 +7,11 @@
 
 }
 
-
 h1 {
+    bottom: 400px;
     font-size: 50px;
     font-weight: 900;
-    margin: 100px;
+    margin: 10px;
     color: blueviolet;
     text-align: center;
     align-items: center;
@@ -20,19 +20,20 @@ h1 {
 }
 
 body {
-    background: rgb(255,255,255);
-background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(173,255,47,1) 35%, rgba(0,212,255,1) 100%);
-
+    margin: 10px;
+    padding: 10px;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, #adff2f 35%, rgba(0, 212, 255, 1) 100%);
 
 }
 
 .form-group {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 320px;
     border: 20px solid white;
     box-shadow: 10px 10px 10px grey;
     border-radius: 20px;
-    margin: 10px auto;
+    margin: auto;
     background-color: white;
     color: blueviolet;
     text-align: center;
@@ -50,20 +51,18 @@ img {
     width: auto;
     height: auto;
     color: black;
-    margin: 5px;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 15px;
     background: white;
     text-align: center;
 }
 
 .form-group input {
     background: rgb(240, 235, 235);
-    width: 200px;
-    height: 35px;
-    font-size: large;
+    width: 160px;
+    height: 25px;
+    font-size: 12px;
     font-weight: 400;
-    border-radius: 5px;
+    border-radius: 6px;
 }
 
 button {
@@ -76,17 +75,17 @@ button {
     margin-top: 20px;
     border-radius: 8px;
     color: white;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 400;
-    border: 10px solid blueviolet;
+    border: 8px solid blueviolet;
     background: blueviolet;
     cursor: pointer;
 }
 
 .new-user {
     font-family: 'Hanuman', serif;
-    font-size:20px;
-    font-weight:500;
+    font-size: 15px;
+    font-weight: 400;
     font-style: normal;
     color: blueviolet;
     text-decoration: none;
@@ -95,21 +94,26 @@ button {
 }
 
 .contacts-list {
-    margin-top: 80px;
-    text-align:center;
+    margin-top: 40px;
+    text-align: center;
     align-items: center;
     font-family: 'Hanuman', serif;
-    font-size:20px;
-    font-weight:500;
+    font-size: 20px;
+    font-weight: 500;
     font-style: normal;
     color: blueviolet;
     cursor: pointer;
-    border-width:0;
-   
+    border-width: 0;
+
 
 }
+
 .contacts-list a {
     margin-right: 10px;
     text-decoration: none;
+
 }
+
+
+
 /* -------Estilização do createnew--------- */
